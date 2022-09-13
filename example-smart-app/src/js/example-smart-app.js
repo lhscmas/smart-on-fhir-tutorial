@@ -20,7 +20,7 @@
                                 'http://loinc.org|8480-6', //systolic 
                                 'http://loinc.org|2085-9',
                                 'http://loinc.org|2089-1', 
-                                'http://loinc.org|85354-4'] //blood pressure
+                                'http://loinc.org|85354-9'] //blood pressure
                       }
                     }
                   });
@@ -40,8 +40,8 @@
           }
 
           var height = byCodes('8302-2');
-          var systolicbp = getBloodPressureValue(byCodes('85354-4'),'8480-6');
-          var diastolicbp = getBloodPressureValue(byCodes('85354-4'),'8462-4');
+          var systolicbp = getBloodPressureValue(byCodes('85354-9'),'8480-6');
+          var diastolicbp = getBloodPressureValue(byCodes('85354-9'),'8462-4');
           var hdl = byCodes('2085-9');
           var ldl = byCodes('2089-1');
 
