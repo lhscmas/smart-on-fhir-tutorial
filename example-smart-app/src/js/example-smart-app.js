@@ -16,8 +16,8 @@
                     "query": {
                       "code": {
                         "$or": ['http://loinc.org|8302-2',
-                                'http://loinc.org|8462-4', //systolic
-                                'http://loinc.org|8480-6', //diastolic
+                                'http://loinc.org|8462-4', //diastolic
+                                'http://loinc.org|8480-6', //systolic 
                                 'http://loinc.org|2085-9',
                                 'http://loinc.org|2089-1', 
                                 'http://loinc.org|85354-4'] //blood pressure
